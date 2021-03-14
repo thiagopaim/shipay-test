@@ -5,7 +5,9 @@ export const MessageWrapper = styled.div`
   max-width: var(--max-width);
   padding: 15px;
   margin: 0 auto;
+  border-radius: var(--radius);
   border: 2px solid transparent;
+  line-height: 100%;
   text-align: center;
   border-color: ${(props) =>
     props.error ? 'var(--color-error)' : 'var(--color-prim)'};

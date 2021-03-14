@@ -1,4 +1,5 @@
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 import GlobalStyles from '../assets/styles/globalStyles'
 
@@ -8,6 +9,7 @@ function MyApp({ Component, pageProps }) {
       <GlobalStyles />
       <Header />
       <Component {...pageProps} />
+      <Footer />
     </>
   )
 }
